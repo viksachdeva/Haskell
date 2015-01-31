@@ -15,3 +15,4 @@ apply Div x y = x `div` y
 data Expr = Val Int | App Op Expr Expr
 values :: Expr -> [Int]
 values (Val n) = [n]
+
